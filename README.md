@@ -30,7 +30,7 @@ The PCB trace routing and pinout are fully compatible with the firmware configur
 | [SN74HC165D](https://ali.click/ph8d11m) | **Shift Register:** Manages button inputs to save GPIO pins. | 1x |
 | [TP4056](https://ali.click/fu9d11d) | **Battery Charger:** Manages Li-Po charging cycles. | 1x |
 | [Type-C Connector](https://ali.click/qy9d117) | **USB Interface:** For charging and PC data connection. | 1x |
-| **SMD MicroSD TF** | **MicroSD Slot:** Used for storing signal databases (NFC/Sub-GHz/IR) | 1x |
+| [SMD MicroSD TF](https://ali.click/52ze11y) | **MicroSD Slot:** Used for storing signal databases (NFC/Sub-GHz/IR) | 1x |
 | **IR LED** | **IR Send:** High-power infrared emitter. | 1x |
 | **IR Receiver** | **IR Receive:** Demodulator for capturing remote signals. | 1x |
 | **3.7V Battery** | **Power:** Standard Li-Po battery. | 1x |
