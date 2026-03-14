@@ -1,7 +1,7 @@
 # Flipper DIY
 **Designed by enexis & dripside**
 
-
+<img width="948" height="339" alt="image" src="[https://github.com/enexis1337/DIY-Flipper-PCB/blob/main/images/PCB%20Photo.png?raw=true]" />
 
 This project is an open-source, DIY-friendly replacement PCB for the Flipper Zero. It is designed to be **fully compatible** with the original Flipper Zero housing without any modifications to the plastic shell. Whether you are building from scratch or repairing a device, this board brings the full suite of Flipper capabilities to a custom PCB.
 
