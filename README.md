@@ -34,7 +34,6 @@ The PCB trace routing and pinout are fully compatible with the firmware configur
 | **IR Receiver** | **IR Receive:** Demodulator for capturing remote signals. | 1x |
 | **3.7V Battery** | **Power:** Standard Li-Po battery. | 1x |
 | **SMD Resistors 0603 10kΩ** | **R1,R2,R3,R4,R5,R6,R7,R9,R10** | 9x |
-| **SMD Resistors 0603 470Ω** | **R8** | 1x |
 | **SMD Resistors 0603 1.2kΩ** | **R11** | 1x |
 | **SMD Resistors 0603 1.0kΩ** | **R12, R13, R18** | 3x |
 | **SMD Resistors 0603 5.1kΩ** | **R14, R15** | 2x |
