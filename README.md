@@ -60,13 +60,6 @@ To ensure a successful build, follow this specific soldering order to avoid mech
 2. **Phase 2 (Display):** Install the **LCD screen**. Make sure it is perfectly aligned before soldering the ribbon cable/pins. After soldering, trim off any protruding pins at the back so they don't interfere with subsequent installation of **external GPIOs**.
 3. **Phase 3 (Final):** Solder all remaining components, including the MCU, NFC module, and buttons.
 
-### Antenna Installation
-
-The Sub-GHz antenna requires a two-step connection:
-
-* First, solder the antenna wire to its **dedicated pin** on the PCB.
-* Then, bridge/solder the connection to the **CC1101 (AS07-M1101S)** module output.
-
 ---
 
 ## GPIO Pinout Guide
