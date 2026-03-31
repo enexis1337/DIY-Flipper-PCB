@@ -38,13 +38,13 @@ The PCB trace routing and pinout are fully compatible with the firmware configur
 | **3.7V Battery** | **Power:** Standard Li-Po battery. | 1x |
 | **SMD Resistors 0603 10kΩ** | **R1,R2,R3,R4,R5,R6,R7,R9,R10** | 9x |
 | **SMD Resistors 0603 1.2kΩ** | **R11** | 1x |
-| **SMD Resistors 0603 1.0kΩ** | **R12, R13, R18, R20** | 3x |
+| **SMD Resistors 0603 1.0kΩ** | **R12, R13, R18, R20** | 4x |
 | **SMD Resistors 0603 5.1kΩ** | **R14, R15** | 2x |
 | **SMD Resistors 0603 4.7kΩ** | **R16, R19** | 2x |
 | **SMD Resistors 0603 180Ω** | **R17** | 1x |
 | **SMD LED 0603** | **Needed to indicate charging** | 2x |
 | **SMD TP4056** | **Battery Charger:** Manages Li-Po charging cycles. | 1x |
-| **MMBT2222A** | **Q1, Q2** | 1x |
+| **MMBT2222A** | **Q1, Q2** | 2x |
 | **1N4148W** | **SMD Diodes:** Signal protection and logic. | 6x |
 | **SMD Capacitor 0603 220uF** | **C1** | 1x |
 | **SMD Tactile Buttons** | **Input:** Navigation and "Back" buttons. | 6x |
