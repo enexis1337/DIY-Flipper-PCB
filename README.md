@@ -18,6 +18,7 @@ The PCB trace routing and pinout are fully compatible with the firmware configur
 * **iButton:** 1-Wire protocol support for Dallas keys.
 * **Peripheral Support:** Full support for original buttons and the LCD.
 * **Form Factor:** 100% mechanical compatibility with the original case.
+* **Buzzer:** On this [firmware](https://github.com/enexis1337/unleashed-cgu6) the PCB also supports buzzer
 
 ---
 
@@ -26,7 +27,7 @@ The PCB trace routing and pinout are fully compatible with the firmware configur
 | Component | Description | quantity |
 | --- | --- | --- |
 | [STM32WB55CGU6](https://ali.click/fo7d11q) | **Main MCU:** Dual-core processor with BLE support. | 1x |
-| [AS07-M1101S](https://ali.click/gs7d118) | **Sub-GHz Module:** Based on CC1101 for radio communication. | 1x |
+| [E07-400MM10S](https://ali.click/d5rk41r) | **Sub-GHz Module:** Based on CC1101 for radio communication. | 1x |
 | [ST7565R 1.4 inch](https://ali.click/oz7d110) | **Screen:** 128x64 Monochrome LCD. | 1x |
 | [ST25R3916](https://www.elechouse.com/product/st25r3916_nfc_reader/) | **NFC Chip:** High-performance NFC/RFID reader. | 1x |
 | [SN74HC165D](https://ali.click/ph8d11m) | **Shift Register:** Manages button inputs to save GPIO pins. | 1x |
@@ -37,15 +38,17 @@ The PCB trace routing and pinout are fully compatible with the firmware configur
 | **3.7V Battery** | **Power:** Standard Li-Po battery. | 1x |
 | **SMD Resistors 0603 10kΩ** | **R1,R2,R3,R4,R5,R6,R7,R9,R10** | 9x |
 | **SMD Resistors 0603 1.2kΩ** | **R11** | 1x |
-| **SMD Resistors 0603 1.0kΩ** | **R12, R13, R18** | 3x |
+| **SMD Resistors 0603 1.0kΩ** | **R12, R13, R18, R20** | 3x |
 | **SMD Resistors 0603 5.1kΩ** | **R14, R15** | 2x |
 | **SMD Resistors 0603 4.7kΩ** | **R16, R19** | 2x |
 | **SMD Resistors 0603 180Ω** | **R17** | 1x |
 | **SMD LED 0603** | **Needed to indicate charging** | 2x |
 | **SMD TP4056** | **Battery Charger:** Manages Li-Po charging cycles. | 1x |
-| **MMBT2222A** | **N-Channel Transistor:** For switching IR LEDs. | 1x |
+| **MMBT2222A** | **Q1, Q2** | 1x |
 | **1N4148W** | **SMD Diodes:** Signal protection and logic. | 6x |
+| **SMD Capacitor 0603 220uF** | **C1** | 1x |
 | **SMD Tactile Buttons** | **Input:** Navigation and "Back" buttons. | 6x |
+| **SMD Passive Buzzer 8540** | **Audio:** Passive transducer for audible alerts and signals. | 1x |
 
 ---
 
