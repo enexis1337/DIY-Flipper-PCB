@@ -33,21 +33,21 @@ The PCB trace routing and pinout are fully compatible with the firmware configur
 | [SN74HC165D](https://ali.click/ph8d11m) | **Shift Register:** Manages button inputs to save GPIO pins. | 1x |
 | **SMD Type-C 16P Connector** | **USB Interface:** For charging and PC data connection. | 1x |
 | [SMD MicroSD TF](https://ali.click/52ze11y) | **MicroSD Slot:** Used for storing signal databases (NFC/Sub-GHz/IR) | 1x |
-| **IR LED** | **IR Send:** High-power infrared emitter. | 1x |
+| **IR LED YLED1206R** | **IR Send:** High-power infrared emitter. | 1x |
 | **IR Receiver** | **IR Receive:** Demodulator for capturing remote signals. | 1x |
 | **3.7V Battery** | **Power:** Standard Li-Po battery. | 1x |
-| **SMD Resistors 0603 10kΩ** | **R1,R2,R3,R4,R5,R6,R7,R9,R10** | 9x |
-| **SMD Resistors 0603 1.2kΩ** | **R11** | 1x |
-| **SMD Resistors 0603 1.0kΩ** | **R12, R13, R18, R20** | 4x |
+| **SMD Resistors 0603 10kΩ** | **R1, R2, R3, R4, R5, R6, R7, R9, R10** | 9x |
+| **SMD Resistors 0603 100Ω** | **R21, R22** | 2x |
+| **SMD Resistors 0603 1.0kΩ** | **R18, R20** | 2x |
 | **SMD Resistors 0603 5.1kΩ** | **R14, R15** | 2x |
-| **SMD Resistors 0603 4.7kΩ** | **R16, R19** | 2x |
-| **SMD Resistors 0603 180Ω** | **R17** | 1x |
+| **SMD Resistors 0603 4.7kΩ** | **R19** | 1x |
+| **SMD Resistors 0603 180Ω** | **R17, R23, R24** | 3x |
 | **SMD LED 0603** | **Needed to indicate charging** | 2x |
-| **SMD TP4056** | **Battery Charger:** Manages Li-Po charging cycles. | 1x |
+| **SMD IP5306** | **Battery Charger:** Manages Li-Po charging cycles. | 1x |
 | **MMBT2222A** | **Q1, Q2** | 2x |
 | **1N4148W** | **SMD Diodes:** Signal protection and logic. | 6x |
-| **SMD Capacitor 0603 220uF** | **C1** | 1x |
-| **SMD Tactile Buttons** | **Input:** Navigation and "Back" buttons. | 6x |
+| **SMD Capacitor 0603 220uF** | **C1, C2, C3, C4** | 1x |
+| **[SMD Tactile Buttons](https://ali.click/02zw51g)** | **Input:** Navigation and "Back" buttons. | 6x |
 | **SMD Passive Buzzer 8540** | **Audio:** Passive transducer for audible alerts and signals. | 1x |
 
 ---
