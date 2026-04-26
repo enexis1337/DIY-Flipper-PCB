@@ -27,7 +27,7 @@ The PCB trace routing and pinout are fully compatible with the firmware configur
 | Component | Description | quantity |
 | --- | --- | --- |
 | [STM32WB55CGU6](https://ali.click/fo7d11q) | **Main MCU:** Dual-core processor with BLE support. | 1x |
-| [E07-400MM10S](https://ali.click/d5rk41r) | **Sub-GHz Module:** Based on CC1101 for radio communication. | 1x |
+| [AS07-M1101s](https://ali.click/5p5571l) | **Sub-GHz Module:** Based on CC1101 for radio communication. | 1x |
 | [ST7565R 1.4 inch](https://ali.click/oz7d110) | **Screen:** 128x64 Monochrome LCD. | 1x |
 | [ST25R3916](https://www.elechouse.com/product/st25r3916_nfc_reader/) | **NFC Chip:** High-performance NFC/RFID reader. | 1x |
 | [SN74HC165D](https://ali.click/ph8d11m) | **Shift Register:** Manages button inputs to save GPIO pins. | 1x |
@@ -37,17 +37,20 @@ The PCB trace routing and pinout are fully compatible with the firmware configur
 | **IR Receiver** | **IR Receive:** Demodulator for capturing remote signals. | 1x |
 | **3.7V Battery** | **Power:** Standard Li-Po battery. | 1x |
 | **SMD Resistors 0603 10kΩ** | **R1, R2, R3, R4, R5, R6, R7, R9, R10** | 9x |
-| **SMD Resistors 0603 100Ω** | **R21, R22** | 2x |
+| **SMD Resistors 0603 100Ω** | **R21** | 1x |
 | **SMD Resistors 0603 1.0kΩ** | **R18, R20** | 2x |
 | **SMD Resistors 0603 5.1kΩ** | **R14, R15** | 2x |
-| **SMD Resistors 0603 4.7kΩ** | **R19** | 1x |
-| **SMD Resistors 0603 180Ω** | **R17, R23, R24** | 3x |
+| **SMD Resistors 0603 4.7kΩ** | **R19, R24** | 1x |
+| **SMD Resistors 0603 180Ω** | **R17, R22, R23** | 3x |
 | **SMD LED 0603** | **Needed to indicate charging** | 2x |
 | **SMD IP5306** | **Battery Charger:** Manages Li-Po charging cycles. | 1x |
 | **MMBT2222A** | **Q1, Q2** | 2x |
-| **1N4148W** | **SMD Diodes:** Signal protection and logic. | 6x |
-| **SMD Capacitor 0603 220uF** | **C1, C2, C3, C4** | 1x |
-| **[SMD Tactile Buttons](https://ali.click/02zw51g)** | **Input:** Navigation and "Back" buttons. | 6x |
+| **1N4148W** | **D1, D2, D3, D4, D5, D6, D7** | 6x |
+| **SMD Capacitor 0603 220uF** | **C1, C3, C5, C8** | 4x |
+| **SMD Capacitor 0603 20uF** | **C2** | 1x |
+| **SMD Capacitor 0603 100nF** | **C4, C7** | 2x |
+| **SMD Capacitor 0603 10nF** | **C6, C9** | 2x |
+| **[SMD Tactile Buttons 4x4x1,5](https://ali.click/02zw51g)** | **Input:** Navigation and "Back" buttons. | 6x |
 | **SMD Passive Buzzer 8540** | **Audio:** Passive transducer for audible alerts and signals. | 1x |
 
 ---
