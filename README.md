@@ -35,15 +35,16 @@ The PCB trace routing and pinout are fully compatible with the firmware configur
 | [SMD MicroSD TF](https://ali.click/52ze11y) | **MicroSD Slot:** Used for storing signal databases (NFC/Sub-GHz/IR) | 1x |
 | **IR LED YLED1206R** | **IR Send:** High-power infrared emitter. | 1x |
 | **IR Receiver** | **IR Receive:** Demodulator for capturing remote signals. | 1x |
-| **3.7V Battery** | **Power:** Standard Li-Po battery. | 1x |
+| **3.7V 2000mAh Li-Pol Battery** | **Power:** Standard Li-Po battery. | 1x |
 | **SMD Resistors 0603 10kΩ** | **R1, R2, R3, R4, R5, R6, R7, R9, R10** | 9x |
 | **SMD Resistors 0603 100Ω** | **R21** | 1x |
 | **SMD Resistors 0603 1.0kΩ** | **R18, R20** | 2x |
 | **SMD Resistors 0603 5.1kΩ** | **R14, R15** | 2x |
 | **SMD Resistors 0603 4.7kΩ** | **R19, R24** | 1x |
 | **SMD Resistors 0603 180Ω** | **R17, R22, R23** | 3x |
-| **SMD LED 0603** | **Needed to indicate charging** | 2x |
+| **SMD LED 0603** | **Needed to indicate charging** | 1x |
 | **SMD IP5306** | **Battery Charger:** Manages Li-Po charging cycles. | 1x |
+| **SMD Inductors 0630 2.2UH** | **L1** | 1x |
 | **MMBT2222A** | **Q1, Q2** | 2x |
 | **1N4148W** | **D1, D2, D3, D4, D5, D6, D7** | 6x |
 | **SMD Capacitor 0603 220uF** | **C1, C3, C5, C8** | 4x |
