@@ -1,5 +1,6 @@
 # Flipper DIY
 **Designed by enexis & dripside**
+[RU Readme](https://github.com/enexis1337/DIY-Flipper-PCB/blob/main/README-RU.md)
 
 This PCB works well with this [firmware](https://github.com/enexis1337/unleashed-cgu6)
 
