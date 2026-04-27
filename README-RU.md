@@ -1,77 +1,78 @@
 # Flipper DIY
-**Designed by enexis & dripside**
+**Создано enexis и dripside**
 
-This PCB works well with this [firmware](https://github.com/enexis1337/unleashed-cgu6)
+Эта печатка отлично работает с этой [прошивкой](https://github.com/enexis1337/unleashed-cgu6)
 
 ![pcb img](images/PCBPhoto.png)
 
-This project is an open-source, DIY-friendly replacement PCB for the Flipper Zero. It is designed to be **fully compatible** with the original Flipper Zero housing without any modifications to the plastic shell. Whether you are building from scratch or repairing a device, this board brings the full suite of Flipper capabilities to a custom PCB.
+Это проект опенсорсной печатной платы для самодельного Flipper Zero. Плата задизайнена так, чтобы быть полностью совместимой с оригинальным корпусом Flipper Zero без каких либо модификаций в 3D модели. Это означает что вы можете собрать свой Flipper Zero прямо в оригинальный корпус, и вам не придется ничего подпиливать, подрезать и так далее.
 
-**Firmware Compatibility:**
-The PCB trace routing and pinout are fully compatible with the firmware configuration used in the [GthiN89/FuckingCheapFlipperZero](https://github.com/GthiN89/FuckingCheapFlipperZero-DIY-Flipper-zero-The-real-on) project. This ensures that you can use the software and pin definitions from that repository without additional mapping.
-## Features & Support
+**Совместимость с прошивками:**
+Разводка печатки и распиновка полностью совместима с конфигурацией из проекта [FcFZ](https://github.com/GthiN89/FuckingCheapFlipperZero-DIY-Flipper-zero-The-real-on).
+Вы можете использовать прошивку и пины из этого репозитория без дополнительных изменений в ней.
 
-* **Sub-GHz:** Full radio support via external module.
-* **NFC:** High-performance NFC read/write capabilities.
-* **Infrared (IR):** Dedicated Send and Receive channels.
-* **External GPIO:** Standard 0.1" headers for modules and debugging.
-* **iButton:** 1-Wire protocol support for Dallas keys.
-* **Peripheral Support:** Full support for original buttons and the LCD.
-* **Form Factor:** 100% mechanical compatibility with the original case.
-* **Buzzer:** On this [firmware](https://github.com/enexis1337/unleashed-cgu6) the PCB also supports buzzer
+## Функции итд
+
+* **Sub-GHz:** Полная поддержка чтения и отправки сигналов через модуль.
+* **NFC:** Чтение, запись и эмуляция прямо как в оригинальном Флиппере.
+* **Infrared (ИК):** Отправка и чтение сигналов ИК.
+* **Внешние GPIO:** 2 гребенки суммарно 18 пинов, добавлены для подключения модулей.
+* **iButton:** 1-Wire протокол для Dallas ключей.
+* **Периферия:** Поддержка кнопок, экрана и спикера(только для [Unleashed](https://github.com/enexis1337/unleashed-cgu6)), однако нет вибро и RGB светодиода.
+* **Форм Фактор:** 100% совместимость с оригинальным корпусом без каких либо изменений.
 
 ---
 
-## Bill of Materials (BOM)
+## Лист компонентов (BOM)
 
-| Component | Description | quantity |
+| Компонент | Описание | Количество |
 | --- | --- | --- |
-| [STM32WB55CGU6](https://ali.click/fo7d11q) | **Main MCU:** Dual-core processor with BLE support. | 1x |
-| [AS07-M1101s](https://ali.click/5p5571l) | **Sub-GHz Module:** Based on CC1101 for radio communication. | 1x |
-| [ST7565R 1.4 inch](https://ali.click/oz7d110) | **Screen:** 128x64 Monochrome LCD. | 1x |
-| [ST25R3916](https://www.elechouse.com/product/st25r3916_nfc_reader/) | **NFC Chip:** High-performance NFC/RFID reader. | 1x |
-| [SN74HC165D](https://ali.click/ph8d11m) | **Shift Register:** Manages button inputs to save GPIO pins. | 1x |
-| **SMD Type-C 16P Connector** | **USB Interface:** For charging and PC data connection. | 1x |
-| [SMD MicroSD TF](https://ali.click/52ze11y) | **MicroSD Slot:** Used for storing signal databases (NFC/Sub-GHz/IR) | 1x |
-| **IR LED YLED1206R** | **IR Send:** High-power infrared emitter. | 1x |
-| **IR Receiver** | **IR Receive:** Demodulator for capturing remote signals. | 1x |
-| **3.7V 2000mAh Li-Pol Battery** | **Power:** Standard Li-Po battery. | 1x |
-| **SMD Resistors 0603 10kΩ** | **R1, R2, R3, R4, R5, R6, R7, R9, R10** | 9x |
-| **SMD Resistors 0603 100Ω** | **R21** | 1x |
-| **SMD Resistors 0603 1.0kΩ** | **R18, R20** | 2x |
-| **SMD Resistors 0603 5.1kΩ** | **R14, R15** | 2x |
-| **SMD Resistors 0603 4.7kΩ** | **R19, R24** | 1x |
-| **SMD Resistors 0603 180Ω** | **R17, R22, R23** | 3x |
-| **SMD LED 0603** | **Needed to indicate charging** | 1x |
-| **SMD IP5306** | **Battery Charger:** Manages Li-Po charging cycles. | 1x |
-| **SMD Inductors 0630 2.2UH** | **L1** | 1x |
+| [STM32WB55CGU6](https://ali.click/fo7d11q) | **Основной MCU:** Двухъядерный процессор с поддержкой BLE. | 1x |
+| [AS07-M1101s](https://ali.click/5p5571l) | **Sub-GHz Модуль:** Основано на модуле CC1101 для радиосвязи. | 1x |
+| [ST7565R 1.4 inch](https://ali.click/oz7d110) | **Экран:** 128x64 монохромный LCD. | 1x |
+| [ST25R3916](https://www.elechouse.com/product/st25r3916_nfc_reader/) | **NFC Чип:** Пиздатый NFC ридер. | 1x |
+| [SN74HC165D](https://ali.click/ph8d11m) | **Сдвиговый регистр:** Нужен для освобождения пинов на STM32. | 1x |
+| **SMD Type-C 16P Connector** | **USB Интерфейс:** Для зарядки и управления STM32 с пк. | 1x |
+| [SMD MicroSD TF](https://ali.click/52ze11y) | **MicroSD Слот:** Нужен для хранения данных и датабаз (NFC/Sub-GHz/IR) | 1x |
+| **IR LED YLED1206R** | **ИК отправка:** Мощный инфракрасный светодиод. | 2x |
+| **IR Receiver** | **ИК приемник:** Демодулятор для приема ИК сигналов. | 1x |
+| **3.7V 2000mAh Li-Pol Battery** | **Заряд:** Стандартная Li-Pol батарея. | 1x |
+| **SMD Резисторы 0603 10kΩ** | **R1, R2, R3, R4, R5, R6, R7, R9, R10** | 9x |
+| **SMD Резисторы 0603 100Ω** | **R21** | 1x |
+| **SMD Резисторы 0603 1.0kΩ** | **R18, R20** | 2x |
+| **SMD Резисторы 0603 5.1kΩ** | **R14, R15** | 2x |
+| **SMD Резисторы 0603 4.7kΩ** | **R19, R24** | 1x |
+| **SMD Резисторы 0603 180Ω** | **R17, R22, R23** | 3x |
+| **SMD LED 0603** | **Нужен для индикации зарядки** | 1x |
+| **SMD IP5306** | **Зарядник:** Заряжает аккумулятор и подает индикацию. | 1x |
+| **SMD Индуктор 0630 2.2UH** | **L1** | 1x |
 | **MMBT2222A** | **Q1, Q2** | 2x |
 | **1N4148W** | **D1, D2, D3, D4, D5, D6, D7** | 6x |
-| **SMD Capacitor 0603 220uF** | **C1, C3, C5, C8** | 4x |
-| **SMD Capacitor 0603 20uF** | **C2** | 1x |
-| **SMD Capacitor 0603 100nF** | **C4, C7** | 2x |
-| **SMD Capacitor 0603 10nF** | **C6, C9** | 2x |
-| **[SMD Tactile Buttons 4x4x1,5](https://ali.click/02zw51g)** | **Input:** Navigation and "Back" buttons. | 6x |
-| **SMD Passive Buzzer 8540** | **Audio:** Passive transducer for audible alerts and signals. | 1x |
+| **SMD Конденсатор 0603 220uF** | **C1, C3, C5, C8** | 4x |
+| **SMD Конденсатор 0603 20uF** | **C2** | 1x |
+| **SMD Конденсатор 0603 100nF** | **C4, C7** | 2x |
+| **SMD Конденсатор 0603 10nF** | **C6, C9** | 2x |
+| **[SMD Тактильные кнопки 4x4x1,5](https://ali.click/02zw51g)** | **Навигация:** Управление прошивкой кнопками. | 6x |
+| **SMD Пасивный спикер 8540** | **Аудио:** Необходим для разных задач, от обычной индикации до возможности слушать сигналы. | 1x |
 
 ---
 
-## Assembly Instructions
+## Инструкция по сборке
 
-To ensure a successful build, follow this specific soldering order to avoid mechanical interference:
+Рекомендовано к прочтению, инструкция о том как все собрать, чтобы не было каких то проблем в будущем:
 
-1. **Phase 1 (Low Profile):** Solder the **MicroSD slot**, the **Shift Register (SN74HC165D)**, and all **SMD Resistors**. These are difficult to access once larger components are installed.
-2. **Phase 2 (Display):** Install the **LCD screen**. Make sure it is perfectly aligned before soldering the ribbon cable/pins. After soldering, trim off any protruding pins at the back so they don't interfere with subsequent installation of **external GPIOs**.
-3. **Phase 3 (Final):** Solder all remaining components, including the MCU, NFC module, and buttons.
+1. **Шаг 1 (Мелкие компоненты):** Припаяй **MicroSD слот**, **Сдвиговый регистр (SN74HC165D)**, и все **SMD штуки**. Их не получится впаять после установки больших компонентов.
+2. **Шаг 2 (Дисплей):** Установи **LCD экран**. Убедись что пины стоят ровно. После пайки откуси все пины экрана, чтобы они не помешали установке **внешних GPIO**.
+3. **Шаг 3 (Финал):** Припаяй STM32, CC1101, кнопки и прочее, но перед пайкой убедись что припаял DataPins к обратной стороне STM32(DP это +, DN это -), без этого не получится прошиватся и заряжатся с одного Type-C порта.
 
 ---
 
-## GPIO Pinout Guide
+## Распиновка внешних GPIO 
 
-Refer to the image below for the correct pin mapping when connecting external modules or sensors.
+По этой схеме также впаяй в stm32 ST-Link отладочные пины.
 ![externalHeader](images/externalHeader.png)
 
 
 ---
 
-> **Note:** This is a hobbyist project. Ensure you have a fine-tip soldering iron or a hot air station.
+> **заметка:** это проект исключительно для ручной сборки, советую использовать паяльную станцию.
