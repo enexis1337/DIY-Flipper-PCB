@@ -51,7 +51,7 @@ The PCB trace routing and pinout are fully compatible with the firmware configur
 | **1N4148W** | **D1, D2, D3, D4, D5, D6, D7** | 6x |
 | **SMD Capacitor 0603 220uF** | **C1, C3, C5, C8** | 4x |
 | **SMD Capacitor 0603 20uF** | **C2** | 1x |
-| **SMD Capacitor 0603 22uF** | **C10, C11, C12** | 1x |
+| **SMD Capacitor 0603 22uF** | **C10, C11, C12** | 3x |
 | **SMD Capacitor 0603 100nF** | **C4, C7** | 2x |
 | **SMD Capacitor 0603 10nF** | **C6, C9** | 2x |
 | **[SMD Tactile Buttons 4x4x1,5](https://ali.click/02zw51g)** | **Input:** Navigation and "Back" buttons. | 6x |
