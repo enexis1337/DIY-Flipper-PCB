@@ -39,7 +39,7 @@ The PCB trace routing and pinout are fully compatible with the firmware configur
 | **IR Receiver** | **IR Receive:** Demodulator for capturing remote signals. | 1x |
 | **3.7V 2000mAh Li-Pol Battery** | **Power:** Standard Li-Po battery. | 1x |
 | **SMD Resistors 0603 10kΩ** | **R1, R2, R3, R4, R5, R6, R7, R9, R10** | 9x |
-| **SMD Resistors 0603 100Ω** | **R21** | 1x |
+| **SMD Resistors 0603 330Ω** | **R21** | 1x |
 | **SMD Resistors 0603 1.0kΩ** | **R18, R20** | 2x |
 | **SMD Resistors 0603 5.1kΩ** | **R14, R15** | 2x |
 | **SMD Resistors 0603 4.7kΩ** | **R19, R24** | 1x |
@@ -51,6 +51,7 @@ The PCB trace routing and pinout are fully compatible with the firmware configur
 | **1N4148W** | **D1, D2, D3, D4, D5, D6, D7** | 6x |
 | **SMD Capacitor 0603 220uF** | **C1, C3, C5, C8** | 4x |
 | **SMD Capacitor 0603 20uF** | **C2** | 1x |
+| **SMD Capacitor 0603 22uF** | **C10, C11, C12** | 1x |
 | **SMD Capacitor 0603 100nF** | **C4, C7** | 2x |
 | **SMD Capacitor 0603 10nF** | **C6, C9** | 2x |
 | **[SMD Tactile Buttons 4x4x1,5](https://ali.click/02zw51g)** | **Input:** Navigation and "Back" buttons. | 6x |
