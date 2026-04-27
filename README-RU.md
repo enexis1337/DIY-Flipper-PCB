@@ -1,6 +1,8 @@
 # Flipper DIY
 **Создано enexis и dripside**
 
+[Англоязычная Readme](https://github.com/enexis1337/DIY-Flipper-PCB/blob/main/README.md)
+
 Эта печатка отлично работает с этой [прошивкой](https://github.com/enexis1337/unleashed-cgu6)
 
 ![pcb img](images/PCBPhoto.png)
