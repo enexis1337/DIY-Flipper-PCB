@@ -49,7 +49,7 @@ The PCB trace routing and pinout are fully compatible with the firmware configur
 | **SMD Inductors 0630 2.2UH** | **L1** | 1x |
 | **MMBT2222A** | **Q1, Q2** | 2x |
 | **1N4148W** | **D1, D2, D3, D4, D5, D6, D7** | 6x |
-| **SMD Capacitor 0603 220uF** | **C1, C3, C5, C8** | 4x |
+| **SMD Capacitor 0603 10uF** | **C1, C3, C5, C8** | 4x |
 | **SMD Capacitor 0603 20uF** | **C2** | 1x |
 | **SMD Capacitor 0603 22uF** | **C10, C11, C12** | 3x |
 | **SMD Capacitor 0603 100nF** | **C4, C7, С13** | 3x |
